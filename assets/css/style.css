@@ -459,7 +459,8 @@
     /*--------------------------------------------------------------
 # Resume
 --------------------------------------------------------------*/
-    /* .resume .resume-title {
+    
+    .resume .resume-title {
         font-size: 26px;
         font-weight: 700;
         margin-top: 20px;
@@ -515,7 +516,7 @@
         top: 0;
         background: #fff;
         border: 2px solid #1f5297;
-    } */
+    }
     
     @media screen and (max-width: 497px) {
         .resume {
@@ -1011,6 +1012,12 @@
         background: #37b3ed;
     }
     
+    .button {
+        color: #0e2442;
+        size: 13px;
+        border-radius: 50%;
+    }
+    
     @-webkit-keyframes animate-loading {
         0% {
             transform: rotate(0deg);
@@ -1078,6 +1085,8 @@
 --------------------------------------------------------------*/
     
     #footer {
+        justify-content: baseline;
+        text-align: end;
         padding: 15px;
         color: #f4f6fd;
         font-size: 14px;
@@ -1085,8 +1094,14 @@
         left: 0;
         bottom: 0;
         width: 300px;
-        z-index: 9999;
+        z-index: 1;
         background: #040b14;
+        padding-top: 150px;
+    }
+    
+    .cont {
+        margin-top: 70px;
+        color: white;
     }
     
     #footer .copyright {
