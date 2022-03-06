@@ -119,6 +119,11 @@
         height: 36px;
         transition: 0.3s;
     }
+  .cont {
+        margin-top: 70px;
+        color: white;
+    }
+    
     
     #header .profile .social-links a:hover {
         background: #149ddd;
